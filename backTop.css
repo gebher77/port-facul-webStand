@@ -1,0 +1,50 @@
+#back-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 4rem;
+  border: none;
+  padding: 1.5rem;
+  cursor: pointer;
+  background-image: url(/img/pngwing.com.png);
+  rotate: 180deg;
+  background-color: transparent;
+  background-size: cover;
+  display: none;
+}
+
+.backTopButton {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+#section-selector {
+  position: fixed;
+  bottom: 3rem;
+  right: 1px;
+}
+
+#section-selector ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 2rem;
+  gap: 4pt;
+}
+
+.ulNav li {
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #05030a;
+}
+.ulNav li a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  width: 8rem;
+  line-height: 20px;
+  color: white;
+  padding: 1rem;
+}
